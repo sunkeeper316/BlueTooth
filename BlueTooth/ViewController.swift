@@ -1,20 +1,23 @@
-//
-//  ViewController.swift
-//  BlueTooth
-//
-//  Created by 黃德桑 on 2019/9/12.
-//  Copyright © 2019 黃德桑. All rights reserved.
-//
-
+import CoreBluetooth
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController ,UITableViewDelegate , UITableViewDataSource{
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
 
 }
 

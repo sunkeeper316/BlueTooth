@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4D44A4F9232A08FC006D1661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A4F8232A08FC006D1661 /* AppDelegate.swift */; };
-		4D44A4FB232A08FC006D1661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A4FA232A08FC006D1661 /* ViewController.swift */; };
+		4D44A4FB232A08FC006D1661 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A4FA232A08FC006D1661 /* MainVC.swift */; };
 		4D44A4FE232A08FC006D1661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D44A4FC232A08FC006D1661 /* Main.storyboard */; };
 		4D44A501232A08FC006D1661 /* BlueTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A4FF232A08FC006D1661 /* BlueTooth.xcdatamodeld */; };
 		4D44A503232A0914006D1661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D44A502232A0914006D1661 /* Assets.xcassets */; };
 		4D44A506232A0914006D1661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D44A504232A0914006D1661 /* LaunchScreen.storyboard */; };
+		4D44A510232A1E6D006D1661 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A50F232A1E6D006D1661 /* ServicesVC.swift */; };
+		4D44A512232A1EA2006D1661 /* CharacteristicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A511232A1EA2006D1661 /* CharacteristicsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D44A4F5232A08FC006D1661 /* BlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D44A4F8232A08FC006D1661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D44A4FA232A08FC006D1661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D44A4FA232A08FC006D1661 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4D44A4FD232A08FC006D1661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D44A500232A08FC006D1661 /* BlueTooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueTooth.xcdatamodel; sourceTree = "<group>"; };
 		4D44A502232A0914006D1661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D44A505232A0914006D1661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D44A507232A0914006D1661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D44A50F232A1E6D006D1661 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		4D44A511232A1EA2006D1661 /* CharacteristicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				4D44A4F8232A08FC006D1661 /* AppDelegate.swift */,
-				4D44A4FA232A08FC006D1661 /* ViewController.swift */,
+				4D44A4FA232A08FC006D1661 /* MainVC.swift */,
+				4D44A50F232A1E6D006D1661 /* ServicesVC.swift */,
+				4D44A511232A1EA2006D1661 /* CharacteristicsVC.swift */,
 				4D44A4FC232A08FC006D1661 /* Main.storyboard */,
 				4D44A502232A0914006D1661 /* Assets.xcassets */,
 				4D44A504232A0914006D1661 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D44A510232A1E6D006D1661 /* ServicesVC.swift in Sources */,
 				4D44A501232A08FC006D1661 /* BlueTooth.xcdatamodeld in Sources */,
-				4D44A4FB232A08FC006D1661 /* ViewController.swift in Sources */,
+				4D44A4FB232A08FC006D1661 /* MainVC.swift in Sources */,
+				4D44A512232A1EA2006D1661 /* CharacteristicsVC.swift in Sources */,
 				4D44A4F9232A08FC006D1661 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4AT2L8Y2T;
+				DEVELOPMENT_TEAM = 2Q39S762VC;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = charder.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = charder.BlueToothConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4AT2L8Y2T;
+				DEVELOPMENT_TEAM = 2Q39S762VC;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = charder.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = charder.BlueToothConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
